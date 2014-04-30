@@ -6,12 +6,14 @@
 * cd (drag folder/directory into terminal) (hit return)
 * bundle install (return)
 * middleman server (return)
+* control + c to stop server
 
 ### To build a new project
 * cd (drag folder/directory into terminal) 
 * middleman init (name of project)
 * cd (drag this new folder into terminal) (return)
 * middleman server (return)  
+* control + c to stop server
 
 ### Middleman Documentation and References
 * http://middlemanapp.com/
