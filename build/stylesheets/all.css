@@ -1,0 +1,30 @@
+/* line 3, /Users/traviskochel/github/440-Middleman/source/stylesheets/_partials/_colors.css.scss */
+.about {
+  background-color: blue; }
+  /* line 6, /Users/traviskochel/github/440-Middleman/source/stylesheets/_partials/_colors.css.scss */
+  .about a {
+    color: yellow; }
+    /* line 8, /Users/traviskochel/github/440-Middleman/source/stylesheets/_partials/_colors.css.scss */
+    .about a:hover {
+      color: red; }
+    /* line 11, /Users/traviskochel/github/440-Middleman/source/stylesheets/_partials/_colors.css.scss */
+    .about a:active {
+      color: blue; }
+
+/* line 17, /Users/traviskochel/github/440-Middleman/source/stylesheets/_partials/_colors.css.scss */
+.nav {
+  background-color: red; }
+  /* line 20, /Users/traviskochel/github/440-Middleman/source/stylesheets/_partials/_colors.css.scss */
+  .nav.hovering {
+    background-color: lime; }
+
+/* line 28, /Users/traviskochel/github/440-Middleman/source/stylesheets/_partials/_colors.css.scss */
+.home {
+  background-color: red; }
+  /* line 31, /Users/traviskochel/github/440-Middleman/source/stylesheets/_partials/_colors.css.scss */
+  .home a {
+    color: lime; }
+
+/* line 1, /Users/traviskochel/github/440-Middleman/source/stylesheets/_partials/_typography.css.scss */
+h1 {
+  font-size: 1em; }

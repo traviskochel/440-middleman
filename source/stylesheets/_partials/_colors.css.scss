@@ -1,0 +1,55 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  &.index { // compiles to -> body.index
+    background-color: $blue; 
+
+    a { // compiles to -> body.index a
+      color: $green;
+
+      &:hover { // compiles to -> body.index a:hover
+        color: $yellow;
+      }
+      &:active { // compiles to -> body.index a:active
+        color: $red;
+      }
+    }
+  }
+
+  &.about { // compiles to -> body.about
+    background-color: $red;
+
+    a { // compiles to -> body.about a
+      color: $yellow;
+
+      &:hover { //compiles to -> body.about a:hover
+        color: $red;
+      }
+      &:active { //compiles to -> body.about a:active
+        color: $blue;
+      }
+    }
+  }
+
+}
+
+.about-active {
+  .about {
+    @include nav-active-state(); // properties from @mixin in _partials/_variables.scss 
+  }
+}
+.index-active {
+  .index {
+    @include nav-active-state(); // properties from @mixin in _partials/_variables.scss 
+  }
+}
+
+.contact-active {
+  .contact {
+    @include nav-active-state(); // properties from @mixin in _partials/_variables.scss 
+  }
+}
+
+
