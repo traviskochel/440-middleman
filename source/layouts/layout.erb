@@ -14,14 +14,18 @@
   </head>
   
   <body class="<%= page_classes %> ">
+    
+    <div class="container_12">
 
-    <div class='nav <%= current_page.data.nav_class %>'>
-      <a href="index.html" class='index'>Home</a>
-      <a href="about.html" class='about'>About</a>
-      <a href="contact.html" class='contact'>Contact</a>
+      <div class='nav <%= current_page.data.nav_class %>'>
+        <a href="index.html" class='index'>Home</a>
+        <a href="about.html" class='about'>About</a>
+        <a href="contact.html" class='contact'>Contact</a>
+      </div>
+
+      <h1><%= current_page.data.title %></h1>
+      <%= yield %>
+
     </div>
-
-    <h1><%= current_page.data.title %></h1>
-    <%= yield %>
   </body>
 </html>

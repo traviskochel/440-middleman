@@ -1,0 +1,8 @@
+.columns {
+  @include box-shadow($red 0px 0px 10px);
+  @include inline-block();
+
+  img {
+    max-width: 100%;
+  }
+} 

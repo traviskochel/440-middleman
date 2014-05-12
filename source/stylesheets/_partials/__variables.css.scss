@@ -8,6 +8,11 @@ $font-big: 3em;
 $font-small: 1em;
 
 
+$media-lg: 1000px;
+$media-md: 800px;
+$media-sm: 600px;
+
+$media-sm-md: 600px 800px ;
 
 @mixin nav-active-state() {
   //re-usable styles for active state in the navigation

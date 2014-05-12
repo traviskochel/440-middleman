@@ -1,6 +1,18 @@
 body {
   font-size: 100%; //16px
   line-height: 1.3;
+
+  @include breakpoint($media-lg) {
+    font-size: 90%;
+  }
+
+  @include breakpoint($media-md) {
+    font-size: 70%;
+  }
+
+  @include breakpoint($media-sm) {
+    font-size: 50%;
+  }
 }
 
 h1 {
